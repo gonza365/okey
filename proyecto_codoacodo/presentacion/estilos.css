@@ -1,14 +1,17 @@
 body{
-    background-color: #F54236;
-    Brush Script MT, Brush Script Std, cursive
+   
+    font-family:  Script MT, Brush Script Std, cursive;
     font-size: 20px;
-    
+    background-attachment: fixed;
+    background-image: url(../images/background.jpg);
+    text-shadow : 2px 2px #E6E1DC;
 }
 h1{
     display:block;
-    height: 10px;
+    height: 5px;
     margin-top: 0;
     color: #E6CA1F;
+    text-shadow: 2px 2px #665E2C;
     
 }
 
@@ -18,7 +21,9 @@ header{
     background-color: #D4B224;
     position: sticky;
     width: 100%;
-    height: 130px;
+    height: 120px;
+    position: fixed;
+   
     
      
     
@@ -34,7 +39,7 @@ section{
     
     border-top: 0px;
     margin: 60px 0px 60px 0px;
-    padding-top: 100px;
+    padding-top: 140px;
     margin-top: 0;
    
 }
@@ -49,12 +54,12 @@ p{
     width: 600px;
     text-align: left;
     display: inline-block;
-    background-color: none);
+    background-color: none;
     font-size: 39px;
     margin-top: 0%;
     margin-right:10px;
-    margin-left:20px;
-}
+    margin-left : 20px}
+
 .botones li a {
     text-decoration: none;
     padding-left: 150px;
@@ -63,12 +68,13 @@ p{
     padding-bottom: 0%;
     
     border-color:2px #665A0D ;
-
+    
 
 
 }
 .botones{
     display: inline-block;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     
     
 }
@@ -76,14 +82,11 @@ p{
 display: inline;
 margin-left: 0;
 margin-right: 0;
-border: 2px 2px 2px 2px border-radius: #9b811a;
-
-
+border-radius:  2px 2px 2px 2px  #9b811a;
 }
-nav{
+.nav{
     display: inline;
     height: 50px;
- 
 }
 .titulo{
    
@@ -100,7 +103,16 @@ ul li :hover{
 
 }
 .interes {
-    padding-top: 100px;
-    margin-top: 100px;
+    padding-top: 120px;
+   
+    
+}
+.icon-social a img{
+    
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    align-items: flex-end;
     
 }
